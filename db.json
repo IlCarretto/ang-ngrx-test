@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "price": 14
+    },
+    {
+      "id": 3,
+      "author": "N.G.R.X. Rowling",
+      "title": "Angular Potter",
+      "price": 12.99
+    },
+    {
+      "id": 4,
+      "author": "J.K. Pluto",
+      "title": "Harry Pippo",
+      "price": 11
+    }
+  ]
+}

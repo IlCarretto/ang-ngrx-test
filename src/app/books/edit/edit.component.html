@@ -1,0 +1,17 @@
+<div class="container">
+  <h2 class="pt-3 pb-3">Edit a book</h2>
+  <div class="mb-3">
+    <label for="title" class="form-label">Book Title</label>
+    <input type="text" [(ngModel)]="bookForm.title" class="form-control" id="title" placeholder="Write your book title..">
+  </div>
+  <div class="mb-3">
+    <label for="author" class="form-label">Author</label>
+    <input type="text" [(ngModel)]="bookForm.author" class="form-control" id="author" placeholder="Write your book author..">
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Price</label>
+    <input type="number" [(ngModel)]="bookForm.price" class="form-control" id="price">
+  </div>
+  <button type="button" class="btn btn-dark" (click)="updateBook()">Update</button>
+</div>
+
